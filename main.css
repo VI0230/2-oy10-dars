@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 18px;
+    background-color: #000000;
+}
+.container{
+    max-width: 1770px;
+    width: 100%;
+    margin: 0 auto; 
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+select{
+    color: #ffffff;
+    font-family: "inter";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    background-color: transparent;
+}
+.header_btn{
+    width: 192px;
+    background-color: #F1A900;
+    border: none;
+    padding: 26px 0;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.header_list{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 14px 0;
+}
+.header_link{
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration: none;
+}
+.hero{
+    padding-top: 349px;
+    padding-bottom: 142px;
+}
+.hero_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+.btn1{
+    width: 235px;
+    background-color:#F1A900 ;
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+.btn2{
+    width: 235px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #000000;
+    border: none;
+}
+.content{
+    width: 966px;
+    height: 202px;
+    margin: 31px auto;
+    border-radius: 10px;
+    padding: 31px 0;
+    background-color:#F1A90054;
+}
+.hero_title{
+    padding-top: 31px;
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero{
+    background-image: url(./images/image\ 5\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn1:hover{
+    background-color:#f1a900c3;
+    color: #ffffff;
+}
+.btn2:hover{
+    background-color: #000000ba;
+    color: #ffffff;
+}
+.ftr_left{
+    display: flex;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    padding-bottom: 44px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    background-color: black;
+}
